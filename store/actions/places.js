@@ -8,9 +8,10 @@ export const addPlace=(placeName)=>{
     };
 }
 
-export const deletePlace=()=>{
+export const deletePlace=(key)=>{
     return {
-        type:actions.DELETE_PLACE
+        type:actions.DELETE_PLACE,
+        placeKey:key
     };
 }
 
