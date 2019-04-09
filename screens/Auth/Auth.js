@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { View, Text, StyleSheet, Button } from "react-native";
 import startMainTabs from "../MainTabs/startMainTabs";
+import sideMenu from "../MainTabs/sideMenu";
 
 class AuthScreen extends Component {
     loginHandler=()=>{
